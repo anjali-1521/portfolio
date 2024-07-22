@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  height: 80px;
+  background-color: #fffefa;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  background-image: url("pp.jpeg");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.logo:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.nav-logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 1rem;
+  padding-top: 0.4rem;
+  margin-right: 21rem;
+}
+a,
+button {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  color: #777777;
+  font-weight: 500;
+}
+button {
+  background-color: #777777;
+  color: #fffefa;
+  border-radius: 5px;
+  border: none;
+  height: 2rem;
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+body {
+  background-color: pink;
+}
+a:hover {
+  color: #800020;
+  text-decoration: underline;
+}
+h1 {
+  color: #fffefa;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 6rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 3rem;
+}
+#main-content {
+  text-align: center;
+  margin: 3rem;
+  height: 45vh;
+}
+#main-content p {
+  color: #fffefa;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: inline;
+}
+
+
+#about {
+  text-align: center;
+  color: #fffefa;
+  margin-top: 200px;
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#about p {
+  position: relative;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #777777;
+}
+.about-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box {
+  height: 500px;
+  width: 35%;
+  border: 2px solid transparent;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.content {
+  font-size: 1.2rem;
+  color: #777777;
+  position: relative;
+  display: inline-block;
+  word-spacing: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.about-info h3 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #fffefa;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.about-info p {
+  margin-top: 1rem;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.skills ul li {
+  list-style-type: none;
+  font-size: 1.2rem;
+  margin: 1.3rem;
+}
+#info h3 {
+  color: #fffefa;
+  font-size: 3.1rem;
+  text-align: center;
+  letter-spacing: 10px;
+}
+.info-content p {
+  color: #777777;
+  text-align: center;
+  font-size: 1.2rem;
+  position: relative;
+  margin: 2rem;
+  margin-left: 4rem;
+  height: 5rem;
+  width: 90%;
+}
+#projects h3 {
+  color: #ffffff;
+  font-size: 3.1rem;
+  text-align: center;
+  letter-spacing: 10px;
+  position: relative;
+  margin-top: 7.1rem;
+}
+#projects p {
+  color: #777777;
+  font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+  margin-top: 1.5rem;
+}
+.footer {
+  position: sticky;
+  top: 0;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 0.5px solid #777777;
+  height: 10rem;
+}
+.footer p {
+  color: #fffefa;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.fa-brands {
+  font-size: 2rem;
+}
+.bottom {
+  margin: 3rem;
+}
+.bottom p {
+  position: relative;
+  color: #fffefa;
+  text-align: center;
+}
+
+#projects {
+  height: 35rem;
+  width: 100%;
+}
+#projects ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  position: relative;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: #fffefa;
+}
+.j2t {
+    text-align: center;
+    
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.field {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 300px;
+}
+
+.mouse {
+	width: 30px;
+	height: 50px;
+	border: 3px solid #fffefa;
+	border-radius: 60px;
+	position: relative;
+	&::before {
+		content: '';
+		width: 10px;
+		height: 10px;
+		position: absolute;
+		top: 10px;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: #fffefa;
+		border-radius: 50%;
+		opacity: 1;
+		animation: wheel 2s infinite;
+		-webkit-animation: wheel 2s infinite;
+	}
+}
+
+@keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+
+@-webkit-keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+
+@media screen and (min-width )
